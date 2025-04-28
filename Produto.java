@@ -13,6 +13,22 @@ class Produto{
         this.categoria = builder.categoria;
     }
 
+    public String getNome() {
+        return nome;
+    }
+    public String getPreco() {
+        return preco;
+    }
+    public String getDescricao() {
+        return descricao;
+    }
+    public String getPeso() {
+        return peso;
+    }
+    public String getCategoria() {
+        return categoria;
+    }
+
     public static class Builder{
         private String nome;
         private String preco;
@@ -45,4 +61,5 @@ class Produto{
         }
 
     }
+
 }
